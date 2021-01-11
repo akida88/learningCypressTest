@@ -15,9 +15,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cypress-xpath": "^1.6.1",
     "prettier": "^2.2.1"
   },
   "devDependencies": {
-    "cypress": "^6.2.0"
+    "cypress": "^6.2.1"
   }
 }
