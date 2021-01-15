@@ -7,14 +7,7 @@ describe('Sending a Facebook message', () => {
     it('Log in', () => {
         cy.get('#username').type('demo.administrator')
         cy.get('#password').type('demo{enter}')
-        // cy.get('#parent')
-    // /    cy.get('#loginbutton').click()
-    // /    cy.get('form').submit()
-    // /    cy.get('#parent')
-    })
-
-    it('Clicking on Banners and creating a new one', () => {
-        cy.contains('Banners'​​​​​​​​).click()
+        cy.contains("Banners",{timeout:10000}).click()
         cy.get('#add').type('This is a new Banner').click('#create')
     })
 })

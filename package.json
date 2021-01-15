@@ -19,6 +19,11 @@
     "prettier": "^2.2.1"
   },
   "devDependencies": {
-    "cypress": "^6.2.1"
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@cypress/webpack-preprocessor": "^5.5.0",
+    "babel-loader": "^8.2.2",
+    "cypress": "^6.2.1",
+    "webpack": "^5.14.0"
   }
 }
