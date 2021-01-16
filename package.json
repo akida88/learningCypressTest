@@ -1,29 +1,16 @@
 {
-  "name": "automatedsoftware",
+  "name": "testingcypress",
   "version": "1.0.0",
-  "description": "Automated software testing with Cypress",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "cy:open": "cypress open",
-    "cy:run": "cypress run"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:run": "cypress run",
+    "cy:open": "cypress open"
   },
-  "keywords": [
-    "testing",
-    "cypress",
-    "automation"
-  ],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "cypress-xpath": "^1.6.1",
-    "prettier": "^2.2.1"
-  },
   "devDependencies": {
-    "@babel/core": "^7.12.10",
-    "@babel/preset-env": "^7.12.11",
-    "@cypress/webpack-preprocessor": "^5.5.0",
-    "babel-loader": "^8.2.2",
-    "cypress": "^6.2.1",
-    "webpack": "^5.14.0"
+    "cypress": "^6.2.1"
   }
 }

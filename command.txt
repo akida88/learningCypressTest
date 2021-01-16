@@ -1,0 +1,3 @@
+// Cypress open right now is too slow with requests to see if it works use this line instead
+// or without  the --spec part to run all tests
+npx  cypress run --headed  --spec "cypress/integration/tests/test.spec.js"
